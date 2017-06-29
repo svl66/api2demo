@@ -1,0 +1,20 @@
+{
+  "name": "api2demo",
+  "version": "1.0.0",
+  "description": "Fedt",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svl66/api2demo.git"
+  },
+  "author": "SVL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svl66/api2demo/issues"
+  },
+  "homepage": "https://github.com/svl66/api2demo#readme"
+}
