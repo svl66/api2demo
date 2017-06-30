@@ -8,6 +8,9 @@ const app = restify.createServer({
 });
 
 app.use(logger('dev'));
+app.use(restify.acceptParser(app.acceptable));
+app.use(restify.queryParser());
+app.use(restify.bodyParser());
 
 require(path.join(__dirname, 'routes', 'index'))(app);
 
